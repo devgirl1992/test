@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Js Drum Key</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="keys">
+      <div data-key="65" class="key playing">
+        <kbd>A</kbd>
+        <span class="sound"></span>
+      </div>
+
+      <div data-key="83" class="key playing">
+        <kbd>S</kbd>
+        <span class="sound"></span>
+      </div>
+
+      <div data-key="68" class="key playing">
+        <kbd>D</kbd>
+        <span class="sound"></span>
+      </div>
+
+      <div data-key="77" class="key playing">
+        <kbd>M</kbd>
+        <span class="sound"></span>
+      </div>
+
+      <div data-key="78" class="key playing">
+        <kbd>N</kbd>
+        <span class="sound"></span>
+      </div>
+    </div>
+
+    <audio data-key="65" src="sounds/clap.wav">AAA</audio>
+
+    <audio data-key="83" src="sounds/hihat.wav">SSS</audio>
+
+    <audio data-key="68" src="sounds/kick.wav">DDD</audio>
+
+    <audio data-key="77" src="sounds/openhat.wav">MMM</audio>
+
+    <audio data-key="78" src="sounds/boom.wav">NNN</audio>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>
